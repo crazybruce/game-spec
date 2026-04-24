@@ -1,0 +1,51 @@
+:root {
+  color-scheme: dark;
+  --bg: #102418;
+  --panel: #1b3a27;
+  --ink: #f3ffe9;
+  --accent: #f8c471;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  background: radial-gradient(circle at top, #245c3c 0%, #102418 60%);
+  color: var(--ink);
+}
+
+.wrap {
+  max-width: 1000px;
+  margin: 1rem auto 2rem;
+  padding: 0 1rem;
+}
+
+h1 {
+  margin: 0.2rem 0;
+  color: var(--accent);
+}
+
+.subtitle {
+  margin: 0.25rem 0 0.75rem;
+  opacity: 0.9;
+}
+
+.hud-help {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-bottom: 0.7rem;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+canvas {
+  width: 100%;
+  border: 3px solid #83c783;
+  border-radius: 10px;
+  background: linear-gradient(#9bd3ff 0%, #bde8ff 35%, #7dc47f 35%, #5f9d59 100%);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
+}
